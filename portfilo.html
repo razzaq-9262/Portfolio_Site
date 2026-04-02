@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Modern Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="{% static 'css/style.css' %}"> -->
+    <link rel="stylesheet" href="portfilo.css">
+</head>
+<body>
+
+    <nav class="nav_bar">
+        <h5 class="logo">Dev<span class="accent">Stack</span></h5>
+        <ul class="nav_links">
+            <li><a href="#home" class="nav-item">Home <i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#about" class="nav-item">About <i class="fa-solid fa-user"></i></a></li>
+            <li><a href="#skills" class="nav-item">Skills <i class="fa-solid fa-code"></i></a></li>
+            <li><a href="#project" class="nav-item">Project <i class="fa-solid fa-lightbulb"></i></a></li>
+            <li><a href="#content" class="btn-nav-cta">Contant <i class="fa-solid fa-pen-nib"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+     <section id="home" class="flex s-around sw-80 m-auto">
+        <div class="home-left flex items-center">
+            <div class="home-content">
+                <h4 class="popinss"> Hi ,I'm </h4>
+                <h1 class="t-white">Abdul Razzaq</h1>
+                <h4 class="popinss">Full Stack Developer</h4>
+                <a href="pdf/HR_CV.pdf" target="_blank">
+                    <button class="btn popinss">Check CV</button>
+                </a>
+                <a class="btn live popinss" id="hireme" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank">let's Talk</a>
+            </div>
+        </div>
+
+        <div class="home-right flex s-center items-center">
+            <div class="circle flex s-center items-center" id="mainImage">
+                <img src="images/ai.jpg" alt="Image">
+            </div>
+        </div>
+
+     </section>
+
+    <!-- About Section -->
+
+    <section id="about">
+        <h1 class="t center my-2 t-white f-2">About</h1>
+        <div class="about-container flex s-around">
+            <div class="about-left flex s-center items-center">
+                <img src="images/side_poz.png" alt="side_poz Photo">
+            </div>
+        </div>
+
+        <div class="about-right flex">
+            <div class="about-content">
+                <h1 class="t-white m-b-1 popinss">Abdul Razzaq</h1>
+                <p class="t-white popinss">I am a dedicated Full Stack Web Developer with a passion for building 
+                    seamless, user-centric digital experiences. With a solid foundation in both front-end 
+                    aesthetics and back-end logic, I specialize in transforming complex ideas into functional, 
+                    responsive web applications. <br><br>
+                    <ul>
+                        Throughout my development journey, I have successfully delivered diverse projects, including:<br>
+
+                        <li>J. Website: A refined web platform focused on clean UI and smooth navigation.<br></li>
+                        <li>Our Portfolio: A collaborative or personal showcase designed to highlight professional skills and work history.<br></li>
+                        <li>Sun to Moon: A creative web application demonstrating dynamic styling and interactive elements.<br></li>
+                        <li>Tools: Git, GitHub, VS Code <br></li>
+                    
+                    </ul>
+                </p>
+                <a id="hireme" class="btn-hire top" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank">let's Talk</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+
+    <section id="skills">
+        <h1 class="t-center my-2 t-white f-2 ">Skills</h1>
+        <div class="services-container flex s-around h-50">
+            <div class="skills-left flex s-center items-center">
+                <img src="images/ai.jpg" alt="skills">
+            </div>
+            <div class="skills-right flex items-center">
+                <div class="skills-container">
+                    <div class="python bar p-relative"><span class="bar-content left t-white"> Core Python</span>
+                    <span class="bar-content right-skills t-white">90%</span></div>
+                    
+                    <div class="html bar p-relative"><span class="bar-content left t-white">Html</span>
+                    <span class="bar-content right-skills t-white">80%</span></div>
+
+                    <div class="css bar p-relative"><span class="bar-content left t-white">CSS</span>
+                    <span class="bar-content right-skills t-white">60%</span></div>
+
+                    <div class="js bar p-relative"><span class="bar-content left t-white">JavaScript</span>
+                    <span class="bar-content right-skills t-white">50%</span></div>
+
+                    <div class="react bar p-relative"><span class="bar-content left t-white">React</span>
+                    <span class="bar-content right-skills t-white">60%</span></div>
+
+                    <div class="mysql bar p-relative"><span class="bar-content left t-white"> MySQL</span>
+                    <span class="bar-content right-skills t-white">50%</span></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Project Section -->
+
+    <section id="project">
+        <h1 class="t-center my-2 t-white f-2">Project</h1>
+        <div class="project-container flex s-center">
+            <div class="project-item flex f-col s-center items-center">
+                <h1 class="t-white popinss">J. website</h1>
+                <p class="t-white popinss">Dedicated to the art of timeless fashion, J. brings together
+                     the rich heritage of Eastern craftsmanship and the clean lines of modern design. 
+                     Our collections are defined by premium fabrics, intricate detailing, and a 
+                     commitment to elegance that transcends seasons. From everyday essentials to 
+                     statement formal wear, we strive to provide a sophisticated wardrobe that 
+                     honors tradition while embracing the future of style.</p>
+                    
+                <div class="button flex s-around top">
+                    <a href="https://github.com/razzaq-9262" target="_blank" class="btn mx-1 m-top">GitHub </a>
+                </div>
+            </div>
+            
+            
+            
+            <div class="project-item flex f-col s-center items-center">
+                <h1 class="t-white popinss">Day Moon site</h1>
+                <p class="t-white popinss">This interactive component features a seamless celestial 
+                    transition triggered by user engagement. Designed using advanced CSS animations, 
+                    the interface responds to mouse movement by morphing a crescent moon into a 
+                    radiant sun in real-time. This project highlights the power of declarative UI 
+                    patterns and smooth transitions to create a more immersive and playful user experience</p>
+                <div class="button flex s-around">
+                    <a href="https://github.com/razzaq-9262" target="_blank" class="btn top">GitHub </a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!-- Content Section -->
+
+    <section id="content" class="m-b-1">
+        <h1 class="t-center my-2 t-white f-2">Contact Me</h1>
+        <div class="Contact-container flex s-around items-center">
+            <div class="form" id="contactform">
+                <form method="post">
+                    
+                    <div class="name form-div">
+                        <input type="text" name="name" id="name" class="popinss" placeholder=" Enter Your Name">
+                    </div>
+
+                    <div class="email form-div">
+                        <input type="email" name="email" id="" class="popinss" placeholder=" Enter Your Email"required>
+                    </div>
+
+                    <div class="phone form-div">
+                        <input type="phone" name="number" id="" class="popinss" placeholder=" Phone Number"required>
+                    </div>                    
+
+                    <div class="textarea form-div">
+                        <textarea name="content" id="textarea" cols="30" rows="10" class="popinss" placeholder=" Enter a messages"></textarea>
+                    </div>
+                    <button type="submit" class="btn popinss" id="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+
+     <footer id="footer">
+        <ul class="flex s-center w-80 m-auto my-2 res">
+            <li><a href="#home" class="popinss">Home</a></li>
+            <li><a href="#about" class="popinss">About</a></li>
+            <li><a href="#skills" class="popinss">Skills</a></li>
+            <li><a href="#project" class="popinss">Project</a></li>
+            <li><a href="#content" class="popinss">Content</a></li>
+        </ul>
+
+        <ul class="flex s-center w-80 font-awesome">
+            <a href="" target="_blank">
+                <li><a href="https://www.linkedin.com/in/razzaqkhan/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </a>
+            <a href="" target="_blank">
+                <li><a href="https://github.com/razzaq-9262" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            </a>
+            <a href="" target="_blank">
+                <li><i class="fa-brands fa-instagram"></i></li>
+            </a>
+        </ul>
+
+        <p class="t-center my-2 popinss">copy; All Right Reserved - <span class="cpy-white popinss">Error by Night</span> </p>
+
+     </footer>
+</body>
+</html>
